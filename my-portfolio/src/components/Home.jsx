@@ -1,8 +1,8 @@
 import React from "react";
 
-function Portfolio() {
+function Home() {
   return (
-    <div className="portfolio">
+    <div className="home">
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
@@ -13,7 +13,7 @@ function Portfolio() {
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Portfolio</h1>
+            <h1 class="font-weight-light">Home</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -27,4 +27,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Home;
