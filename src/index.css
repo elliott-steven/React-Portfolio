@@ -1,4 +1,7 @@
 body {
+  background-color: rgb(158, 202, 238);
+  color:rgb(7, 7, 7);
+  font-size: larger;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +14,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.footer .btn {
+  margin-left: 10px;
+  font-size: large;
+}
+
+.portfolio {
+  margin-top: 20px;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.photo {
+  height: 400px;
+  width: 400px;
+}
+
+.tile {
+  margin: 20px;
+}
+
