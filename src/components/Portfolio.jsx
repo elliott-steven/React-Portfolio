@@ -8,6 +8,7 @@ function Portfolio() {
   return (
     <div className="portfolio">
       <div className="container text-center">
+        <h4>Samples of My Work</h4>
         <div className="row">
           <div className="tile col-md-5 mb-4">
             <img className="photo" src={logo1} alt=""/>

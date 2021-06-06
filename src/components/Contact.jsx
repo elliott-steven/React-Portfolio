@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import resume from "../img/Resume_Steven_Elliott_Updated.pdf";
 
 
 function Contact() {
@@ -32,9 +33,9 @@ function Contact() {
           </fieldset>
           <button type="submit">Submit</button>
         </form>
-        <br></br>
-        <p>You can also reach me at any of the links below.</p>
-      </div>      
+        <img src={resume} alt=""/>
+      </div>
+      
     </div>
   )
 }
